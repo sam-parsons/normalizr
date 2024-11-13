@@ -1,5 +1,5 @@
 {
-  "name": "compressor-x",
+  "name": "normalizr",
   "version": "1.0.0",
   "description": "",
   "main": "background.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sam-parsons/compressor-x.git"
+    "url": "git+https://github.com/sam-parsons/normalizr.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sam-parsons/compressor-x/issues"
+    "url": "https://github.com/sam-parsons/normalizr/issues"
   },
-  "homepage": "https://github.com/sam-parsons/compressor-x#readme",
+  "homepage": "https://github.com/sam-parsons/normalizr#readme",
   "devDependencies": {
     "@types/chrome": "0.0.280",
     "ts-loader": "^9.5.1",
