@@ -25,13 +25,14 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
                 //         console.error("Error capturing audio:", chrome.runtime.lastError);
                 //     }
                 // });
-                console.log("Sending response", tabs[0].id);
-                return Promise.resolve({id: tabs[0].id});
-                // sendResponse({id: tabs[0].id})
+                console.log(tabs);
+                console.log("Sending response...", tabs[0].id);
+                // return Promise.resolve({id: tabs[0].id});
+                sendResponse({id: tabs[0].id})
             }
 
         });
-        return false;
+        return true;
     }
 });
 

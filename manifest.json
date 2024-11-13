@@ -5,7 +5,9 @@
     "description": "Normalizes audio in real-time on web pages using the Web Audio API.",
     "permissions": [
       "tabCapture", 
-      "activeTab"
+      "activeTab",
+      "tabs",
+      "background"
     ],
     "background": {
       "service_worker": "background.js"
